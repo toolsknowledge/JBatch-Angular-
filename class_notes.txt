@@ -1,3 +1,127 @@
+											TypeScript
+											**********
+
+	- TypeScript is the Programming Language
+
+	- TypeScript Released by Microsoft
+
+	- TypeScript used to build the Angular,React and VueJS Applications
+
+	- TypeScript follows the OOPS
+
+	- Superset of JavaScript also called as TypeScript.
+
+	- we will save the TypeScript files with ".ts" extension
+
+	- Visual Studio Code IDE is the Suggestable IDE to build 
+    the TypeScript applications
+
+	- In general, Browsers can't understand TypeScript
+
+	- so, we must convert TypeScript to Equalent JavaScript
+
+	- conversion of TypeScript to Equalent JavaScript called as
+     Transpilation
+
+	- "tsc" is the tool, used to perform Transpilation
+
+	- "tsc" stands for TypeScript Compiler
+
+Installation of Softwares
+*************************
+1) download and install NodeJS
+
+	NodeJS is server side Technology / Backend Technology
+
+	NodeJS internally containes following tools
+
+		npm
+
+		node
+
+		npx
+	
+	npm stands for node packaging manager
+
+	npm helps to install the TypeScript
+
+	node is the tool used to execute the javascript
+
+	npx stands for node packaging runner
+
+	npx helps to create the react applications
+
+
+website : https://nodejs.org/en/download/
+
+file    : node-v16.15.1-x64.msi
+
+
+2) install TypeScript
+
+
+	TypeScript installation is command based installation
+
+	Below command helps to install the TypeScript
+
+	> npm install --location=global typescript
+
+
+3) download and install Visual Studio Code
+
+	Visual Studio Code is the IDE, to build the Web Applications
+
+	Visual Studio Code IDE, Provided by Microsoft
+
+	Visual Studio Code IDE is the Open Source IDE
+
+website : https://code.visualstudio.com/docs/?dv=win
+
+file    : VSCodeUserSetup-x64-1.68.0.exe
+
+
+Settings in Visual Studio Code
+******************************
+1) enable AutoSave Mode
+
+
+		click the settings the icon ==> settings ==> Auto Save ==> after delay
+
+
+2) select the cmd mode as default profile mode
+
+	view ==> terminal ==> click the dropdown(Lauch Profile) ==> 
+   select default profile ==> select cmd.exe
+
+
+
+Transpilation
+*************
+	conversion of TypeScript to Equalent JavaScript called as 
+
+Transpilation
+
+	tsc is the tool, used to perform Transpilation
+
+	tsc stands for TypeScript compiler
+
+
+Syntax
+******
+	> tsc demo.ts
+ 
+      o/p
+
+     demo.js
+
+
+	> node demo.js
+
+
+
+
+
+
 Variables
 *********
     Variables are used to store the data
