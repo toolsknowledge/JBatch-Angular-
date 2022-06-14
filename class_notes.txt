@@ -1,0 +1,40 @@
+Variables
+*********
+    Variables are used to store the data
+    Ex.
+        string
+        number
+        boolean
+        objects
+        arrays
+        ---
+        ---
+        ---
+        ---
+    we can declare Variables in 3 ways
+
+    1) var  
+    2) let
+    3) const
+
+    let & const keywords introduced in "ES6"
+
+    Variables should contain a-z, A-Z, 0-9, $ and _
+
+    Variables should not start with digits
+
+Syntax
+******
+var/let/const variablename:datatype = value;
+
+Ex.
+    let msg:string = "welcome to typescript"
+
+
+
+
+
+
+
+
+
