@@ -63,11 +63,25 @@
     func_one("Hello_1",undefined,"Hello_3");
                             //Hello_1 Hello_2 [ 'Hello_3' ]
 */
-function func_one(param1, param2, param3) {
+/*
+    function func_one(param1?:string,param2?:string,param3?:string):void{
+        console.log(param1,param2,param3);
+    };
+    func_one();
+                //undefined undefined undefined
+    func_one("Hello_1","Hello_2","Hello_3");
+                //Hello_1 Hello_2 Hello_3
+*/
+/*
+    function func_one(param1:any,
+                    param2:any="Hello_2",
+                    param3?:any,
+                    ...param4:any):void{
+        console.log(param1,param2,param3,param4);
+    }
+    //func_one();   //Expected at least 1 arguments, but got 0.
+*/
+var func_one = function (param1, param2, param3) {
     console.log(param1, param2, param3);
-}
-;
-func_one();
-//undefined undefined undefined
+};
 func_one("Hello_1", "Hello_2", "Hello_3");
-//

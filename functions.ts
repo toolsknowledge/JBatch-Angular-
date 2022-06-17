@@ -83,13 +83,36 @@
 */
 
 
-function func_one(param1:any,
-                  param2:any="Hello_2",
-                  param3?:any,
-                  ...param4:any):void{
-    console.log(param1,param2,param3,param4);
+
+/*
+    function func_one(param1:any,
+                    param2:any="Hello_2",
+                    param3?:any,
+                    ...param4:any):void{
+        console.log(param1,param2,param3,param4);
+    }
+    //func_one();   //Expected at least 1 arguments, but got 0.
+*/
+
+
+
+let func_one:any = (param1:any,param2:any,param3:any):any=>{
+    console.log(param1,param2,param3);
 }
-//func_one();   //Expected at least 1 arguments, but got 0.
+func_one("Hello_1","Hello_2","Hello_3");    //Hello_1 Hello_2 Hello_3
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
